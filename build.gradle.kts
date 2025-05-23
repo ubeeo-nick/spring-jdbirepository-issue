@@ -16,9 +16,9 @@ repositories {
 }
 
 dependencies {
-    implementation(platform("org.jdbi:jdbi3-bom:3.42.0"))
+    implementation(platform("org.jdbi:jdbi3-bom:3.49.4"))
     implementation("org.jdbi:jdbi3-core")
-    implementation("org.jdbi:jdbi3-spring5")
+    implementation("org.jdbi:jdbi3-spring")
     implementation("org.jdbi:jdbi3-sqlobject")
     implementation("org.springframework.boot:spring-boot-starter")
     implementation("org.springframework.boot:spring-boot-starter-web")
